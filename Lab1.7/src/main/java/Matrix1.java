@@ -37,7 +37,7 @@ public class Matrix1 {
         Random random = new Random();
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                matrix[i][j] = random.nextInt() * 10; // Значения от 0 до 10
+                matrix[i][j] = random.nextInt(-101, 101); // Значения от 0 до 10
             }
         }
         return matrix;
