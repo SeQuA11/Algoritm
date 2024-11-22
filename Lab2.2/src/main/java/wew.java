@@ -8,15 +8,31 @@ public class wew {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); // Метод вызывающий сканер
 
-        double x = in.nextDouble();
-        double y = in.nextDouble();
-        double sum = 0;
-        for (double i = x; i <= y; i++) {
-            sum += PowerA3(i);
+        int progress = 1;
+        while (progress != 0) {
+            System.out.println();
+            double cases = in.nextDouble();
+            switch (progress) {
+                case 1:
+
+            }
+
         }
     }
 
-    public static double PowerA3(double A) {
-        return Math.pow(A, 3);
+    static double sum(double A, double B) {
+        return A + B;
+    }
+
+    static double diff(double A, double B) {
+        return A - B;
+    }
+
+    static double hypotenuse(double A, double B) {
+        return Math.sqrt(A * A + B * B);
+    }
+    
+    static void time(int A) {
+
     }
 }
