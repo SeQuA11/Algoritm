@@ -18,24 +18,24 @@ public class SQA {
         int progress = 1;
         while (progress != 0) {
             System.out.print("\nВвод: ");
-            int cases = in.nextInt();
+            String cases = in.next();
             switch (cases) {
-                case 1:
+                case "1":
                     System.out.print("\nВведите два числа: ");
                     double sum1 = in.nextDouble(), sum2 = in.nextDouble();
                     System.out.println("Сумма двух действительных чисел: " + sum(sum1, sum2));
                     break;
-                case 2:
+                case "2":
                     System.out.print("\nВведите два числа: ");
                     double diff1 = in.nextDouble(), diff2 = in.nextDouble();
                     System.out.println("Разность двух действительных чисел: " + diff(diff1, diff2));
                     break;
-                case 3:
+                case "3":
                     System.out.println("\nВведите два числа: ");
                     double hypotenuse1 = in.nextDouble(), hypotenuse2 = in.nextDouble();
                     System.out.println("Длинна гипотенузы по двум катетам: " + hypotenuse(hypotenuse1, hypotenuse2));
                     break;
-                case 4:
+                case "4":
                     System.out.print("\nВведите дату в таком формате (дд.мм.гггг): ");
                     String date = in.next();
                     try {
@@ -46,7 +46,7 @@ public class SQA {
                         System.err.println("Неверный формат даты. Пожалуйста, используйте (дд.мм.гггг)");
                     }
                     break;
-                case 5:
+                case "5":
                     System.out.println("\nВы вышли :0");
                     progress -= 1;
                     break;
@@ -71,5 +71,12 @@ public class SQA {
     public static long daysBetween(LocalDate Date) {
         LocalDate Date1 = LocalDate.now();
         return Math.abs(ChronoUnit.DAYS.between(Date1, Date));
+    }
+
+    static void inputNumber(double number) {
+
+        if (number instanceof Double) {
+            
+        }
     }
 }
