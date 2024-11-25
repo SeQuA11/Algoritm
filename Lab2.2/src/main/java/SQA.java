@@ -37,10 +37,10 @@ public class SQA {
                     break;
                 case 4:
                     System.out.print("\nВведите дату в таком формате (дд.мм.гггг): ");
-                    String date = in.nextLine();
+                    String date = in.next();
                     try {
                         LocalDate inputDate = LocalDate.parse(date, format);
-                        long days = daysBetween(inputDate);
+                        long days = daysBetween(LocalDate.parse(inputDate.toString()));
                         System.out.println("Количество дней между сегодняшним днем и " + date + ": " + days);
                     } catch (DateTimeParseException e) {
                         System.err.println("Неверный формат даты. Пожалуйста, используйте (дд.мм.гггг)");
