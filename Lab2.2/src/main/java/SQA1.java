@@ -5,7 +5,7 @@ import java.time.temporal.ChronoUnit;
 import java.time.format.DateTimeParseException;
 
 
-public class SQA {
+public class SQA1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); // Метод вызывающий сканер
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // Настраиваемый формат
@@ -21,19 +21,25 @@ public class SQA {
             String cases = in.next();
             switch (cases) {
                 case "1":
+                    double sum1,sum2;
                     System.out.print("\nВведите два числа: ");
-                    String sum1 = inNumber(in.next()), sum2 = inNumber(in.next());
-                    System.out.println("Сумма двух действительных чисел: " + sum(Double.parseDouble(sum1), Double.parseDouble(sum2)));
+                    if (in.hasNextDouble()) sum1 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    if (in.hasNextDouble()) sum2 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    System.out.println("Сумма двух действительных чисел: " + sum(sum1, sum2));
                     break;
                 case "2":
+                    double diff1, diff2;
                     System.out.print("\nВведите два числа: ");
-                    String diff1 = inNumber(in.next()), diff2 = inNumber(in.next());
-                    System.out.println("Разность двух действительных чисел: " + diff(Double.valueOf(diff1), Double.valueOf(diff2)));
+                    if (in.hasNextDouble()) diff1 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    if (in.hasNextDouble()) diff2 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    System.out.println("Разность двух действительных чисел: " + diff(diff1, diff2));
                     break;
                 case "3":
+                    double hyp1, hyp2;
                     System.out.println("\nВведите два числа: ");
-                    String hypotenuse1 = inNumber(in.next()), hypotenuse2 = inNumber(in.next());
-                    System.out.println("Длинна гипотенузы по двум катетам: " + hypotenuse(Double.valueOf(hypotenuse1), Double.valueOf(hypotenuse2)));
+                    if (in.hasNextDouble()) hyp1 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    if (in.hasNextDouble()) hyp2 = in.nextDouble(); else {System.out.println("Ошибка ввода!"); continue;}
+                    System.out.println("Длинна гипотенузы по двум катетам: " + hypotenuse(hyp1, hyp2));
                     break;
                 case "4":
                     System.out.print("\nВведите дату в таком формате (дд.мм.гггг): ");
@@ -71,23 +77,5 @@ public class SQA {
     public static long daysBetween(LocalDate Date) {
         LocalDate Date1 = LocalDate.now();
         return Math.abs(ChronoUnit.DAYS.between(Date1, Date));
-    }
-
-    public static boolean inputNumber(String number) {
-        try {
-            Double.parseDouble(number);
-            return true;
-        } catch (NumberFormatException e){
-            return false;
-        }
-    }
-
-    static String inNumber(String number) {
-        if (inputNumber(number)) {
-            return number;
-        } else {
-            System.out.println("Неверный ввод. Введите вещественное число!!!");
-        }
-        return "";
     }
 }
