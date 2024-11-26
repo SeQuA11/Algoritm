@@ -22,18 +22,18 @@ public class SQA {
             switch (cases) {
                 case "1":
                     System.out.print("\nВведите два числа: ");
-                    double sum1 = in.nextDouble(), sum2 = in.nextDouble();
-                    System.out.println("Сумма двух действительных чисел: " + sum(sum1, sum2));
+                    String sum1 = String.valueOf(inputNumber(in.next())), sum2 = String.valueOf(inputNumber(in.next()));
+                    System.out.println("Сумма двух действительных чисел: " + sum(Double.valueOf(sum1), Double.valueOf(sum2)));
                     break;
                 case "2":
                     System.out.print("\nВведите два числа: ");
-                    double diff1 = in.nextDouble(), diff2 = in.nextDouble();
-                    System.out.println("Разность двух действительных чисел: " + diff(diff1, diff2));
+                    String diff1 = String.valueOf(inputNumber(in.next())), diff2 = String.valueOf(inputNumber(in.next()));
+                    System.out.println("Разность двух действительных чисел: " + diff(Double.valueOf(diff1), Double.valueOf(diff2)));
                     break;
                 case "3":
                     System.out.println("\nВведите два числа: ");
-                    double hypotenuse1 = in.nextDouble(), hypotenuse2 = in.nextDouble();
-                    System.out.println("Длинна гипотенузы по двум катетам: " + hypotenuse(hypotenuse1, hypotenuse2));
+                    String hypotenuse1 = String.valueOf(inputNumber(in.next())), hypotenuse2 = String.valueOf(inputNumber(in.next()));
+                    System.out.println("Длинна гипотенузы по двум катетам: " + hypotenuse(Double.valueOf(hypotenuse1), Double.valueOf(hypotenuse2)));
                     break;
                 case "4":
                     System.out.print("\nВведите дату в таком формате (дд.мм.гггг): ");
@@ -73,10 +73,16 @@ public class SQA {
         return Math.abs(ChronoUnit.DAYS.between(Date1, Date));
     }
 
-    static void inputNumber(double number) {
-
-        if (number instanceof Double) {
-            
+    public static boolean inputNumber(String number) {
+        try {
+            Double.parseDouble(number);
+            return true;
+        } catch (NumberFormatException e){
+            System.out.println("Неверный ввод. Введите вещественное число!!!");
+            return false;
         }
+    }
+    public static String inNumber(boolean inputNumber) {
+        if ()
     }
 }
