@@ -23,7 +23,7 @@ class Company {
     }
 
     // ... (другие методы)
-};
+}
 
 class MasCompany {
     public static void main(String[] args) {
@@ -56,5 +56,3 @@ class MasCompany {
                 CityCompany[i].show();
     }
 } // конец описания класса MasCompany
-
-
