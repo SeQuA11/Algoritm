@@ -6,12 +6,14 @@ class Company {
     public String name; // название
     public int persons; // количество сотрудников
     public int money; // месячный фонд зарплаты
+    ArrayList<Company> company;
 
     // конструктор
     public Company(String name, int persons, int money) {
         this.name = name;
         this.persons = persons;
         this.money = money;
+        this.company = new ArrayList<>();
     }
 
     /**
@@ -25,7 +27,7 @@ class Company {
     public int averageSalary() {
         return money / persons;
     }
-    
-}
 
-// конец описания класса MasCompany
+    public void getFullInfo() {
+    }
+}

@@ -1,36 +1,15 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
-/**
- * демо работы массива Компаний
- */
 class MasCompany {
     public static void main(String[] args) {
-        int i;
+        Company com1 = new Company("Computers", 456, 78000);
+        Company com2 = new Company("Boooks", 789, 45000);
+        Company com3 = new Company("ГазПром", 1567, 98000);
+        Company com4 = new Company("Door", 345, 56000);
+        Company com5 = new Company("Garden", 56, 30000);
 
-        // 1) объявляем ссылку на массив объектов
-        // класса Company;
-        // 2) выделяем память для массива ссылок
-        // на объекты и сохраняем адрес выделенной
-        // памяти в ссылочной переменной
-        Company[] CityCompany = new Company[5];
+        com1.getFullInfo(); // Выводит информацию об аптеке
 
-        // 3) создаём объекты и записываем ссылки
-        // на эти объекты в соответствующие
-        // элементы массива
-        Scanner scanner = new Scanner(System.in);
-        for (i = 0; i < 5; i++) {
-            System.out.println("Информация о компании: \n");
-            CityCompany[i] = new Company(
-                    scanner.nextLine(),
-                    Integer.parseInt(scanner.nextLine()),
-                    Integer.parseInt(scanner.nextLine())
-            );
-        }
-
-        // печать информации о компаниях, в которых
-        // средняя зарплата превышает 10000
-        for (i = 0; i < 5; i++)
-            if (CityCompany[i].averageSalary() > 10000)
-                CityCompany[i].show();
     }
 }
