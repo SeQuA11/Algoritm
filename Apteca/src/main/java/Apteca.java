@@ -62,31 +62,6 @@ class Apteka { // Класс для представления аптеки
         * ": medicines" - указывает коллекцию для итерации. "medicines" предполагается, что это коллекция ArrayList <Medicine>
         (или аналогичный тип коллекции), содержащая "Medicine" объекты */
     }
-
-
-    // Этот метод перебирает "medicines" список, чтобы найти и вернуть цену самого дорогого лекарства.
-    // Он также обрабатывает случай, когда список "medicines" пуст
-    public int getMostExpensiveMedicinePrice() { // Улучшенное название метода
-        if (medicines.isEmpty()) { // Если список лекарств пустой, то возвращаем ноль
-            return 0;
-        }
-        int maxPrice = medicines.get(0).price; // Инициализация первого лекарства с ценой
-        for (Medicine med : medicines) {
-            if (med.price > maxPrice) {
-                maxPrice = med.price;
-            }
-        }
-        return maxPrice;
-    }
-
-    // Этот метод рассчитывает и возвращает общую стоимость всех лекарств в аптеке
-    public int getTotalCost() { // Улучшенное название метода
-        int total = 0; // Создаём счётчик
-        for (Medicine med : medicines) {
-            total += med.price;
-        }
-        return total;
-    }
 }
 
 class Programm {
@@ -117,22 +92,18 @@ class Programm {
 
         // Выводим информацию на экран
         ap1.getFullInfo(); // Выводит информацию об аптеке
-        System.out.println("Самое дорогое лекарство: " + ap1.getMostExpensiveMedicinePrice());
-        System.out.println("Общая сумма: " + ap1.getTotalCost());
+
         System.out.println();
 
         ap2.getFullInfo(); // Выводит информацию об аптеке
-        System.out.println("Самое дорогое лекарство: " + ap2.getMostExpensiveMedicinePrice());
-        System.out.println("Общая сумма: " + ap2.getTotalCost());
+
         System.out.println();
 
         ap3.getFullInfo(); // Выводит информацию об аптеке
-        System.out.println("Самое дорогое лекарство: " + ap3.getMostExpensiveMedicinePrice());
-        System.out.println("Общая сумма: " + ap3.getTotalCost());
+
         System.out.println();
 
         ap4.getFullInfo(); // Выводит информацию об аптеке
-        System.out.println("Самое дорогое лекарство: " + ap4.getMostExpensiveMedicinePrice());
-        System.out.println("Общая сумма: " + ap4.getTotalCost());
+        
     }
 }

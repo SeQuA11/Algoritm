@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.ArrayList;
 
 class Company {
@@ -9,11 +8,18 @@ class Company {
     ArrayList<Company> company;
 
     // конструктор
-    public Company(String name, int persons, int money) {
+    public Company(String name) {
         this.name = name;
+        this.company = new ArrayList<>();
+    }
+
+    public Company(int persons, int money) {
         this.persons = persons;
         this.money = money;
-        this.company = new ArrayList<>();
+    }
+
+    public String toString() {
+        return  persons + "," + money;
     }
 
     /**
@@ -28,6 +34,20 @@ class Company {
         return money / persons;
     }
 
+    public void addCompany(int employee, int money) {
+        company.add(new Company(name));
+    }
+
     public void getFullInfo() {
+        System.out.println("Компания: " + name);
+        if (company.isEmpty()) {
+            System.out.println("Нет данных");
+            return;
+        }
+
+        // Выводим список
+        for (Company com : company) {
+            System.out.println(com);
+        }
     }
 }
