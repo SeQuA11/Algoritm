@@ -19,23 +19,11 @@ class Company {
     }
 
     public String toString() {
-        return  persons + "," + money;
-    }
-
-    /**
-     * вывод инфо о компании
-     */
-    public void show() {
-        System.out.println("В компании " + name + " трудятся " + persons + " сотрудников");
-        System.out.println("Фонд зарплаты: " + money);
-    }
-
-    public int averageSalary() {
-        return money / persons;
+        return "Колличество сотрудников: " + persons + "\nМесячный фонд зарплаты: " + money;
     }
 
     public void addCompany(int employee, int money) {
-        company.add(new Company(name));
+        company.add(new Company(employee, money));
     }
 
     public void getFullInfo() {
