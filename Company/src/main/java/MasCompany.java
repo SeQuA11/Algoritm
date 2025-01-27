@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 class MasCompany {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
 
         Company com1 = new Company("Computers");
@@ -33,6 +32,5 @@ class MasCompany {
         com6.addCompany(in.nextInt(), in.nextInt());
         com6.getFullInfo();
         System.out.println();
-
     }
 }
