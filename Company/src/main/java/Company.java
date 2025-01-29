@@ -1,27 +1,26 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 class Company {
-    // ОПИСАНИЯ ПОЛЕЙ И МЕТОДОВ // см. пример 3.4
+    // ОПИСАНИЯ ПОЛЕЙ И МЕТОДОВ
     public String name; // название
     public int persons; // количество сотрудников
     public int money; // месячный фонд зарплаты
     public String work; // вид деятельности
 
     /*
-
+    Конструктор класса Company, для  
      */
     public Company(String user_command) {}
 
     /*
-
+    Метод возвращающий поле name
      */
     public String getName() {
         return name;
     }
 
     /*
-
+    Конструктор класса Company, принимающий значения из класса MasCompany и присваивающий значения полей переменным
      */
     public Company(String name, String work, int persons, int money) {
         this.name = name;
@@ -31,7 +30,7 @@ class Company {
     }
 
     /*
-
+    Метод для оформления данных о компании
      */
     public void displayCompanyInfo() {
         System.out.println();
@@ -42,7 +41,8 @@ class Company {
     }
 
     /*
-
+    Метод, принимающий за аргумент список из класса MasCompany и возвращающий
+    оформленные(с помощью метода displayCompanyInfo()) данные о каждой компании по отдельности с помощью цикла
      */
     public void infoCompany(ArrayList<Company> company) {
         System.out.println("Все компании:");
@@ -53,10 +53,12 @@ class Company {
     }
 
     /*
-    
+    Метод, принимающий за аргумент список из класса MasCompany и аргумент с названием компании
      */
     public static void removeCompanyByName(ArrayList<Company> company, String companyName) {
+        // Цикл от 0 до длинны списка
         for (int i = 0; i < company.size(); i++) {
+            // Условие, если в списке есть объект с переданным названием, то этот объект удаляется
             if (company.get(i).getName().equals(companyName)) {
                 company.remove(i);
                 System.out.println("Компания '" + companyName + "' удалена.");
