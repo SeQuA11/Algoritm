@@ -7,19 +7,19 @@ class Company {
     public int money; // месячный фонд зарплаты
     public String work; // вид деятельности
 
-    /*
+    /**
     Конструктор класса Company, для  
      */
     public Company(String user_command) {}
 
-    /*
+    /**
     Метод возвращающий поле name
      */
     public String getName() {
         return name;
     }
 
-    /*
+    /**
     Конструктор класса Company, принимающий значения из класса MasCompany и присваивающий значения полей переменным
      */
     public Company(String name, String work, int persons, int money) {
@@ -29,7 +29,7 @@ class Company {
         this.money = money;
     }
 
-    /*
+    /**
     Метод для оформления данных о компании
      */
     public void displayCompanyInfo() {
@@ -40,7 +40,7 @@ class Company {
                 + "\nЗароботная плата: " + money);
     }
 
-    /*
+    /**
     Метод, принимающий за аргумент список из класса MasCompany и возвращающий
     оформленные(с помощью метода displayCompanyInfo()) данные о каждой компании по отдельности с помощью цикла
      */
@@ -52,7 +52,7 @@ class Company {
 
     }
 
-    /*
+    /**
     Метод, принимающий за аргумент список из класса MasCompany и аргумент с названием компании
      */
     public static void removeCompanyByName(ArrayList<Company> company, String companyName) {

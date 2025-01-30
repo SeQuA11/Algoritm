@@ -21,7 +21,7 @@ class MasCompany {
         System.out.println("////////////////////////////////////////////////////////////");
         System.out.println();
 
-        /*
+        /**
         Создаём объекты посредством передачи данных о компаниях конструктору Company и добавляем их в список company
          */
         company.add(new Company("RotFish","Туризм", 115, 34000));
@@ -32,7 +32,7 @@ class MasCompany {
         // Метод из класса Company, позволяющий выводить данные о компаниях из списка
         comp.infoCompany(company);
 
-        /*
+        /**
         Цикл принимающий переменную bool в качестве аргумента и обработкой команд с помощью оператора switch case
          */
         while (bool) {
@@ -41,7 +41,7 @@ class MasCompany {
             System.out.print("Введите команду: ");
             user_command = in.nextLine(); // Присваиваем переменной user_command значение in.nextLine() для возможности
                                           // вписывать команды пользователем
-            /*
+            /**
              Оператор switch case, который принимает строку из переменной user_command
              и выполняет case с заданным пользователем значением
              */
@@ -86,7 +86,7 @@ class MasCompany {
                     Company.removeCompanyByName(company, name);
                     break;
                 }
-                /*
+                /**
                 Если выбрать этот кейс, то переменная bool = true примет значение false,
                 после чего цикл завершиться как и программа
                  */
