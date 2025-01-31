@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e980-52af-40b3-b700-79c1da648493" name="Changes" comment="" />
+    <list default="true" id="db788f39-c6b9-4bfb-91bb-929f8c8ecb42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,50 +18,37 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2p2TXtmiBWnNzTCYDGlkKT3DmZQ" />
+  <component name="ProjectId" id="2sNiqUYcKXmmrMYdHKLvulS5kqz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Figure.executor": "Run",
-    "Application.Numbers.executor": "Run",
+    "Application.ReleaseProgramm.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Algoritm/Lab2.5",
-    "onboarding.tips.debug.path": "D:/Algoritm/Lab2.4/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Algoritm/Lab1.3"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c978e980-52af-40b3-b700-79c1da648493" name="Changes" comment="" />
-      <created>1731963214411</created>
+      <changelist id="db788f39-c6b9-4bfb-91bb-929f8c8ecb42" name="Changes" comment="" />
+      <created>1738302624643</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731963214411</updated>
+      <updated>1738302624643</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
