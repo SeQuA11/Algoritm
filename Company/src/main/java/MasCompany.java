@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 class MasCompany {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in); // Выделяем место в памяти и создаем объект для метода Scanner
         boolean bool = true; // Булевое значение bool для завершения цикла
         var user_command = "";
