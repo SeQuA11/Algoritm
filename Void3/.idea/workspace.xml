@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b84d411-8e15-4acc-b78d-17c2b5584595" name="Changes" comment="" />
+    <list default="true" id="1c791922-9296-46f6-929c-273ff20fe311" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../KlientBank2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KlientBank2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/Basketball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/Football.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/Sport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/Tennis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -23,32 +23,30 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2tFNYXMzdybTgXkNUvE0vGR9eh8" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2tMnaRtNOglRXQsGH8oA99bmjI6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Klient.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Algoritm/KlientBank2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "E:/Algoritm/Void3/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b84d411-8e15-4acc-b78d-17c2b5584595" name="Changes" comment="" />
-      <created>1739943946555</created>
+      <changelist id="1c791922-9296-46f6-929c-273ff20fe311" name="Changes" comment="" />
+      <created>1740170874391</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1739943946555</updated>
+      <updated>1740170874391</updated>
     </task>
     <servers />
   </component>
