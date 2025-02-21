@@ -1,0 +1,54 @@
+@startuml
+
+' Task 1.1
+
+class Car {
+    -power: int
+    -cost: double
+    -number: string
+    -make: string
+    +startEngine()
+    +accelerate()
+    +brake()
+}
+
+class Company {
+    -name: string
+    -address: string
+    -employees: List<Employee>
+    +addEmployee(employee: Employee)
+    +removeEmployee(employee: Employee)
+    +getProfit()
+}
+
+class NewspaperOffice {
+    -name: string
+    -address: string
+    -staff: List<Journalist>
+    -articles: List<Article>
+    +addArticle(article: Article)
+    +publish()
+}
+
+' Task 1.2
+abstract Vehicle {
+    -power: int
+    -cost: double
+    -number: string
+    -make: string
+}
+
+Car --|> Vehicle
+class Car {
+    -mileage: int
+    -isServiceDone: boolean
+    +drive()
+}
+
+Airplane --|> Vehicle
+class Airplane {
+    -maxAltitude: int
+    +fly()
+}
+
+@enduml
