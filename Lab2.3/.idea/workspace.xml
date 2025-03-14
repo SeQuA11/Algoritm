@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11ea0a4d-5e85-4fc6-9c93-2c8b95573a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../KlientBank2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KlientBank2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Basketball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Football.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Sport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Tennis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="381f8d24-d23f-43d5-ae61-83df6de2ad1e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +17,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  "associatedIndex": 2
 }]]></component>
-  <component name="ProjectId" id="2tMnWyESA5chKkz1BhKeQXN111p" />
+  <component name="ProjectId" id="2rtQC8tERbu3CoDyRW3BAOHb9Iy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,29 +29,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/Algoritm/Void1/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Algoritm/Lab2.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11ea0a4d-5e85-4fc6-9c93-2c8b95573a40" name="Changes" comment="" />
-      <created>1740170847171</created>
+      <changelist id="381f8d24-d23f-43d5-ae61-83df6de2ad1e" name="Changes" comment="" />
+      <created>1737375762661</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740170847171</updated>
+      <updated>1737375762661</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
