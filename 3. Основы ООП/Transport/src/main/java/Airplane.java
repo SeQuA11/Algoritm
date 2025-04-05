@@ -18,24 +18,20 @@ public class Airplane extends Transport{
         System.out.println(carTax / 100 * 3);
     }
 
-    public void maxPrice(ArrayList<Car> car) {
+    public void maxPrice(ArrayList<Airplane> airplanes) {
         int airTax = 0;
-        boolean trfa = false;
+        int power1 = 0;
         String marka = "";
-        for (Car cars:car) {
-            if (cars.price > airTax) {
-                airTax = cars.price;
-                trfa = cars.tehInspection;
-                marka = cars.stamp;
+        for (Airplane air:airplanes) {
+            if (air.price > airTax) {
+                airTax = air.price;
+                power1 = air.power;
+                marka = air.stamp;
             }
         }
+
+        System.out.println("Мощность: " + power1);
         System.out.println("Марка: " + marka);
         System.out.println("Стоимость: " + airTax + " рублей");
-
-        if (trfa) {
-            System.out.println("Техосмотр пройден");
-        } else {
-            System.out.println("Техосмотр не пройден");
-        }
     }
 }

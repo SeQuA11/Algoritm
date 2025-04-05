@@ -16,15 +16,18 @@ public class Car extends Transport{
         int carTax = 0;
         boolean trfa = false;
         String marka = "";
+        int mileage1 = 0;
         for (Car cars:car) {
             if (cars.price > carTax) {
                 carTax = cars.price;
                 trfa = cars.tehInspection;
                 marka = cars.stamp;
+                mileage1 = cars.mileage;
             }
         }
         System.out.println("Марка: " + marka);
         System.out.println("Стоимость: " + carTax + " рублей");
+        System.out.println("Пробег: " + mileage1);
 
         if (trfa) {
             System.out.println("Техосмотр пройден");

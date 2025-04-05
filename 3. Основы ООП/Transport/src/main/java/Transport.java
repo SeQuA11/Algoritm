@@ -13,4 +13,6 @@ public class Transport {
         this.stamp = stamp;
     }
 
+    public void Tax() {}
+
 }
