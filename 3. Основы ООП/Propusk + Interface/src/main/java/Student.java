@@ -1,5 +1,5 @@
-public class Student extends Ticket {
-    int year; // год
+public class Student extends Ticket implements TrueFalseTicket {
+    protected int year; // год
 
     /**
      * Конструктор класса, инициализирует поля с переданными значениями

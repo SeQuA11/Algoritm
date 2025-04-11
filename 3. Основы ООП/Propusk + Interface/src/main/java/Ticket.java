@@ -1,8 +1,8 @@
 public class Ticket {
-    public String surname; // Фамилия
-    public String name; // Имя
-    public String patronymic; // Отчество
-    public String faculty;
+    protected String surname; // Фамилия
+    protected String name; // Имя
+    protected String patronymic; // Отчество
+    protected String faculty;
 
     /**
      * Конструктор класса, инициализирует поля с переданными значениями

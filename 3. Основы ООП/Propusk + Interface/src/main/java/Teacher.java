@@ -1,4 +1,4 @@
-public class Teacher extends Ticket {
+public class Teacher extends Ticket implements TrueFalseTicket {
     protected String department; // Кафедра
 
     /**
