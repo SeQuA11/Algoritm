@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f563d79-ee05-412b-ba02-5eb438b7e723" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transport/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Transport/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Transport/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainRegister.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Algoritm/3. Основы ООП/Propusk + Interface",
-    "onboarding.tips.debug.path": "E:/Algoritm/3. Основы ООП/Propusk/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Проект",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainRegister.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Algoritm/3. Основы ООП/Propusk + Interface&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Algoritm/3. Основы ООП/Propusk/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Проект&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

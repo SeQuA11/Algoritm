@@ -1,4 +1,4 @@
-public class Teacher extends Ticket implements TrueFalseTicket {
+public class Teacher extends Ticket {
     protected String department; // Кафедра
 
     /**
@@ -21,14 +21,5 @@ public class Teacher extends Ticket implements TrueFalseTicket {
     public void Conclusion() {
         super.Conclusion();
         System.out.println("Кафедра: " + department);
-    }
-
-    /**
-     * Метод интерфейса для вывода инфо о том, аннулировать пропуск или обновить
-     * @return
-     */
-    @Override
-    public boolean getTicket() {
-        return true;
     }
 }

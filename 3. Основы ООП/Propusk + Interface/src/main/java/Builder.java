@@ -1,6 +1,11 @@
+import java.time.LocalDate;
+
 public class Builder extends Ticket implements TrueFalseTicket {
     protected int beginningYear; // год
     protected int endYear;
+
+    LocalDate currentDate = LocalDate.now(); // Получаем текущую дату
+    int currentYear = currentDate.getYear(); // Извлекаем текущий год
 
     /**
      * Конструктор класса, инициализирует поля с переданными значениями
@@ -24,5 +29,17 @@ public class Builder extends Ticket implements TrueFalseTicket {
     public void Conclusion() {
         super.Conclusion();
         System.out.println("Год начала: " + beginningYear + "\nГод конца: " + endYear);
+    }
+
+    /**
+     * Метод интерфейса для вывода инфо о том, аннулировать пропуск или обновить
+     * @return
+     */
+    @Override
+    public boolean getTicket() {
+        if ((currentYear - 1) <= beginningYear && endYear <= currentYear) {
+            return true;
+        }
+        return false;
     }
 }

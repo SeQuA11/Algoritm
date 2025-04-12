@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f563d79-ee05-412b-ba02-5eb438b7e723" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TrueFalseTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TrueFalseTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Propusk/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Propusk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Propusk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.idea/workspace.xml" afterDir="false" />
@@ -29,7 +29,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,25 +57,26 @@
     "project.structure.last.edited": "Проект",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "Приложение.MainRegister.executor": "Run"
+    "Приложение.MainRegister.executor": "Run",
+    "Приложение.Programm.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +98,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +110,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +127,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="Propusk + Interface" />
+      <module name="Propusk + file" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
