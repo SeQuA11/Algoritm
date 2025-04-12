@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f563d79-ee05-412b-ba02-5eb438b7e723" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/MainRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk + Interface/src/main/java/TrueFalseTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Propusk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Propusk/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Transport/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Transport/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Transport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Transport/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a090a578-2728-4ed7-bbf3-25ff5ec1a0d7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,44 +24,43 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2vXux5MLzeN3XcKxhc8gqEmca7u" />
+  <component name="ProjectId" id="2tMnYTFboGLeHXXHstDFQAt0bww" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.MainRegister.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Algoritm/3. Основы ООП/Propusk + file",
-    "onboarding.tips.debug.path": "E:/Algoritm/3. Основы ООП/Propusk/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Проект",
+    "last_opened_file_path": "C:/Users/stepa/Desktop/Glava_7_CSV",
+    "onboarding.tips.debug.path": "E:/Algoritm/Void2/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "Приложение.MainRegister.executor": "Run",
-    "Приложение.Programm.executor": "Run"
+    "Приложение.Main.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +82,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +94,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +111,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="Propusk + file" />
+      <module name="Transport" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +131,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f563d79-ee05-412b-ba02-5eb438b7e723" name="Changes" comment="" />
-      <created>1744303983589</created>
+      <changelist id="a090a578-2728-4ed7-bbf3-25ff5ec1a0d7" name="Changes" comment="" />
+      <created>1740170858694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744303983589</updated>
+      <updated>1740170858694</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
