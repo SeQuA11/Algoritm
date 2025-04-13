@@ -106,26 +106,4 @@ public class Airplane extends Transport {
 
         }
     }
-
-    public int getPower() {
-        return power;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-
-
-    public int getHeight() {
-        return height;
-    }
-
-    public String getStamp() {
-        return stamp;
-    }
 }

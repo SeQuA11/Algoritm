@@ -115,28 +115,4 @@ public class Car extends Transport {
             cars.displayCarInfo(); // Вызываем метод отображения информации для каждого автомобиля
         }
     }
-
-    public int getPower() {
-        return power;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public int getMileage() {
-        return mileage;
-    }
-
-    public String getStamp() {
-        return stamp;
-    }
-
-    public boolean getTehInspection() {
-        return  tehInspection;
-    }
 }
