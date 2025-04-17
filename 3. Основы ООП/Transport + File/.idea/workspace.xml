@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a090a578-2728-4ed7-bbf3-25ff5ec1a0d7" name="Changes" comment="" />
+    <list default="true" id="a090a578-2728-4ed7-bbf3-25ff5ec1a0d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void3/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void4/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Запасные/Void5/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/stepa/Desktop/Glava_7_CSV",
+    "last_opened_file_path": "D:/Clock1",
     "onboarding.tips.debug.path": "E:/Algoritm/Void2/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
