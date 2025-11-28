@@ -1,0 +1,68 @@
+@startuml
+skinparam component {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor Black
+}
+
+package "A0: Управление транспортными происшествиями" {
+  [A1\nРегистрация\nи учет ДТП] as A1
+  [A2\nАнализ\nи экспертиза] as A2
+  [A3\nФормирование\nотчетности] as A3
+  [A4\nАрхивирование\nи хранение] as A4
+}
+
+' Входные данные
+(Информация о ДТП) as input1
+(Материалы расследования) as input2
+(Экспертные заключения) as input3
+(Статистические данные) as input4
+
+' Выходные данные
+(Зарегистрированные дела) as output1
+(Аналитические отчеты) as output2
+(Официальные отчеты) as output3
+(Архивные дела) as output4
+
+' Управление
+(Регламенты регистрации) as control1
+(Методики анализа) as control2
+(Форматы отчетности) as control3
+(Правила архивирования) as control4
+
+' Механизмы
+(Операторы отдела регистрации) as mechanism1
+(Эксперты-аналитики) as mechanism2
+(Сотрудники отчетного отдела) as mechanism3
+(Архивариусы) as mechanism4
+
+' Связи для A1
+input1 --> A1
+control1 --> A1
+mechanism1 --> A1
+A1 --> output1
+
+' Связи для A2
+output1 --> A2
+input2 --> A2
+control2 --> A2
+mechanism2 --> A2
+A2 --> output2
+
+' Связи для A3
+output2 --> A3
+input3 --> A3
+input4 --> A3
+control3 --> A3
+mechanism3 --> A3
+A3 --> output3
+
+' Связи для A4
+output1 --> A4
+output2 --> A4
+output3 --> A4
+control4 --> A4
+mechanism4 --> A4
+A4 --> output4
+
+@enduml
